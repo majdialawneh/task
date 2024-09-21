@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+/* Background Image Section */
+.contact-section {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.project-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    position: relative;
+}
+
+.project-card:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.skill:hover {
+    color: #ff4500;
+}
+
+/* Input focus effect */
+input:focus {
+    border: 2px solid #333;
+}
+
+/* Button hover effect */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Fixed positioning example */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
